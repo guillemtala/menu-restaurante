@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <link href="../fontawesome/css/all.css" rel="stylesheet"> -->
+<menu>
+    <plato tipo1="TAPAS">
+        <titulo>BRAVAS</titulo>
+        <precio>4,20€</precio>
+        <descripcion>Son las mejores bravas</descripcion>
+        <calorias>190kcal</calorias>
+        <caracteristicas>
+            <nombre tema2="estrella" tema1="picante"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo1="TAPAS">
+        <titulo>PINCHOS</titulo>
+        <precio>8,50€</precio>
+        <descripcion>Tapa de pinchos</descripcion>
+        <calorias>90kcal</calorias>
+        <caracteristicas>
+            <nombre tema1="picante" tema2="estrella"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo1="TAPAS">
+        <titulo>MORROS</titulo>
+        <precio>5,40€</precio>
+        <descripcion>Tapa de morros</descripcion>
+        <calorias>247kcal</calorias>
+        <caracteristicas>
+            <nombre></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo1="TAPAS">
+        <titulo>CALAMARES A LA ROMANA</titulo>
+        <precio>7,90€</precio>
+        <descripcion>Tapa de calamares a la romana</descripcion>
+        <calorias>204kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo1="TAPAS">
+        <titulo>NUGGUETS DE POLLO</titulo>
+        <precio>5,80€</precio>
+        <descripcion>6 Nugguets</descripcion>
+        <calorias>297kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo1="TAPAS">
+        <titulo>SURTIDO DE EMBUTIDOS</titulo>
+        <precio>16,80€</precio>
+        <descripcion>Queso, jamon serrano, chorizo, jamon dulce.</descripcion>
+        <calorias>300kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo2="BOCATAS CALIENTES">
+        <titulo>LOMO</titulo>
+        <precio>5,00€</precio>
+        <descripcion>Lomo, queso, bacon, mayonesa</descripcion>
+        <calorias>450kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo2="BOCATAS CALIENTES">
+        <titulo>TORTILLA A LA FRANCESA</titulo>
+        <precio>3,50€</precio>
+        <descripcion>Bocata de tortilla a la francesa</descripcion>
+        <calorias>277kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo2="BOCATAS CALIENTES">
+        <titulo>BACON QUESO</titulo>
+        <precio>3,50€</precio>
+        <descripcion>Bacon, queso, mayonesa</descripcion>
+        <calorias>290kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo2="BOCATAS CALIENTES">
+        <titulo>FRANKFURT</titulo>
+        <precio>3,50€</precio>
+        <descripcion>Bacon, queso, cebolla, mayonesa</descripcion>
+        <calorias>200kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+        <plato tipo2="BOCATAS CALIENTES">
+        <titulo>PINCHOS</titulo>
+        <precio>4,90€</precio>
+        <descripcion>Bocata de pinchos</descripcion>
+        <calorias>300kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten" tema1="picante" tema2="estrella"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo3="BOCATAS FRIOS">
+        <titulo>FUET</titulo>
+        <precio>3,00€</precio>
+        <descripcion>Bocata de fuet</descripcion>
+        <calorias>100kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo3="BOCATAS FRIOS">
+        <titulo>JAMON SERRANO</titulo>
+        <precio>3,00€</precio>
+        <descripcion>Bocata de jamon serrano</descripcion>
+        <calorias>150kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo3="BOCATAS FRIOS">
+        <titulo>QUESO</titulo>
+        <precio>3,00€</precio>
+        <descripcion>Bocata de queso</descripcion>
+        <calorias>190kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo3="BOCATAS FRIOS">
+        <titulo>JAMON YORK</titulo>
+        <precio>3,00€</precio>
+        <descripcion>Bocata de Jamon York</descripcion>
+        <calorias>90kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo3="BOCATAS FRIOS">
+        <titulo>ATÚN</titulo>
+        <precio>3,00€</precio>
+        <descripcion>Bocata de atún</descripcion>
+        <calorias>70kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo4="HAMBURGUESAS">
+        <titulo>HAMBURGUESA AMERICANA</titulo>
+        <precio>6,00€</precio>
+        <descripcion>Mayonesa, lechuga, hamburguesa, cebolla, queso, huevo frito y tomate</descripcion>
+        <calorias>400kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten" tema2="estrella"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo4="HAMBURGUESAS">
+        <titulo>HAMBURGUESA GOURMET</titulo>
+        <precio>8,00€</precio>
+        <descripcion>Salsa especial, mézclum, hamburguesa de ternera, queso de cabra, jamón del país y tomate</descripcion>
+        <calorias>450kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo4="HAMBURGUESAS">
+        <titulo>HAMBURGUESA CHICKEN</titulo>
+        <precio>5,00€</precio>
+        <descripcion>Mayonesa, lechuga, hamburguesa de pollo, queso y tomate</descripcion>
+        <calorias>420kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+        <plato tipo4="HAMBURGUESAS">
+        <titulo>HAMBURGUESA MEXICANA</titulo>
+        <precio>6,00€</precio>
+        <descripcion>Mayonesa, lechuga, hamburguesa picante, cebolla, queso, bacon y tomate</descripcion>
+        <calorias>450kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten" tema1="picante"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo4="HAMBURGUESAS">
+        <titulo>MEGA HAMBURGUESA</titulo>
+        <precio>16,00€</precio>
+        <descripcion>Mayonesa, lechuga, hamburguesa de 300grs, queso, jamón dulce, huevo frito, tomate y patatas fritas</descripcion>
+        <calorias>800kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten" tema2="estrella"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo5="PLATOS COMBINADOS">
+        <titulo>LIBRITOS CON PATATAS Y HUEVO</titulo>
+        <precio>10,00€</precio>
+        <descripcion>Plato combinado con libritos, patatas y huevo</descripcion>
+        <calorias>400kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo5="PLATOS COMBINADOS">
+        <titulo>POLLO REBOZADO CON PATATAS</titulo>
+        <precio>9,50€</precio>
+        <descripcion>Plato combinado con pollo rebozado y patatas</descripcion>
+        <calorias>385kcal</calorias>
+        <caracteristicas>
+            <nombre tema="gluten" tema2="estrella"></nombre>
+        </caracteristicas>
+    </plato>
+    <plato tipo5="PLATOS COMBINADOS">
+        <titulo>BISTEC CON PATATAS</titulo>
+        <precio>10,50€</precio>
+        <descripcion>Plato combinado con bistec y patatas</descripcion>
+        <calorias>200kcal</calorias>
+        <caracteristicas>
+            <nombre></nombre>
+        </caracteristicas>
+    </plato>
+</menu>

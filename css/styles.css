@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-family: 'Special Elite', cursive; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    color: black;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* .column1 svg {
+    width: 1.5vw;
+    padding-right: 5px;
+    display: inline;
+}
+
+.column2 svg {
+    width: 2vw;
+    padding-right: 5px;
+    display: inline;
+} */
+
+body {
+    background-color: bisque;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    height: 100vh;
+}
+
+.column-100 {
+    float: left;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* .column-30 {
+    float: left;
+    width: 30%;
+}
+
+.column-70 {
+    float: left;
+    width: 70%;
+} */
+
+.column-33 {
+    float: left;
+    width: 33.33%;
+    height: 100vh;
+}
+
+.border-column {
+    border-right: 5px solid orange;
+    border-left: 5px solid orange;
+}
+
+.column1 {
+    float: left;
+    width: 100%;
+    padding-left: 3vw;
+    padding-top: 2vw;
+}
+
+.column1 img {
+    width: 1.5vw;
+    padding-right: 5px;
+    display: inline;
+}
+
+.column2 {
+    float: left;
+    width: 100%;
+    padding-left: 3vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0;
+    padding-right: 1vw;
+}
+
+.column2 img {
+    width: 1.5vw;
+    padding-right: 5px;
+    display: inline;
+}
+
+.column3 {
+    float: left;
+    width: 100%;
+    padding-left: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 2.3vw;
+    padding-right: 2vw;
+    /* height: 70%; */
+}
+
+.column3 img {
+    width: 1.5vw;
+    padding-right: 5px;
+    display: inline;
+}
+
+.columnimg {
+    float: left;
+    width: 100%;
+    padding: 3vw;
+    padding-top: 0.5vw;
+    /* height: 20%; */
+}
+
+.columnimg img {
+    width: 100%;
+}
+
+.columnimg1 {
+    float: left;
+    width: 100%;
+    padding: 3vw;
+    padding-top: 1vw;
+    height: 20%;
+    display: none;
+}
+
+.columnimg1 img {
+    width: 100%;
+}
+
+.columnleyenda {
+    width: 100%;
+    height: 10%;
+    padding-left: 3vw;
+}
+
+.columnleyenda img {
+    width: 1.5vw;
+    padding-right: 5px;
+    display: inline;
+}
+
+.column1 h1 {
+    font-size: 2vw;
+    color: orangered;
+    font-weight: 900;
+}
+
+.column1 h2 {
+    display: inline;
+    font-size: 0.9vw;
+    font-weight: 900;
+}
+
+.column1 h3 {
+    display: inline;
+    font-size: 0.9vw;
+    font-weight: 900;
+}
+
+.column1 p {
+    font-size: 0.9vw;
+    margin: 0;
+}
+
+.column2 h1 {
+    font-size: 2vw;
+    color: orangered;
+    font-weight: 900;
+}
+
+.column2 h2 {
+    font-size: 0.9vw;
+    display: inline;
+    font-weight: 900;
+}
+
+.column2 h3 {
+    font-size: 0.9vw;
+    display: inline;
+    font-weight: 900;
+}
+
+.column2 p {
+    font-size: 0.9vw;
+    margin: 0;
+}
+
+.column3 h1 {
+    font-size: 2vw;
+    color: orangered;
+    font-weight: 900;
+}
+
+.column3 h2 {
+    font-size: 0.9vw;
+    display: inline;
+    font-weight: 900;
+}
+
+.column3 h3 {
+    font-size: 0.9vw;
+    display: inline;
+    font-weight: 900;
+}
+
+.column3 p {
+    font-size: 0.9vw;
+    margin: 0;
+}
+
+.columnleyenda p {
+    padding-left: 0.5vw;
+    padding-right: 1vw;
+    font-size: 0.9vw;
+    margin: 0;
+    display: inline;
+}
+
+.padding {
+    padding-top: 3vw;
+}
+
+.bravas img {
+    width: 25vw;
+    padding-top: 2vw;
+    padding-right: 12vw;
+}
+
+.bravas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburguesa img {
+    width: 22vw;
+    padding-top: 10vw;
+    padding-right: 12vw;
+}
+
+.hamburguesa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frankfurt img {
+    width: 63vw;
+    padding-top: 0vw;
+    padding-left: 52vw;
+    padding-bottom: 1vw;
+}
+
+.frankfurt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bocata img {
+    width: 63vw;
+    padding-top: 6vw;
+    padding-left: 52vw;
+}
+
+.bocata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .columnimg1 {
+        display: block;
+    }
+    .columnimg {
+        display: none;
+    }
+    .column-33 {
+        float: left;
+        width: 100%;
+        height: 100vh;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+    }
+    .column1 h1 {
+        font-size: 7vw;
+    }
+    .column1 h2 {
+        font-size: 4vw;
+    }
+    .column1 h3 {
+        font-size: 4vw;
+    }
+    .column1 p {
+        font-size: 4vw;
+        margin: 0;
+    }
+    .column2 h1 {
+        font-size: 7vw;
+    }
+    .column2 h2 {
+        font-size: 4vw;
+    }
+    .column2 h3 {
+        font-size: 4vw;
+    }
+    .column2 p {
+        font-size: 4vw;
+    }
+    .column3 h1 {
+        font-size: 7vw;
+    }
+    .column3 h2 {
+        font-size: 4vw;
+    }
+    .column3 h3 {
+        font-size: 4vw;
+    }
+    .column3 p {
+        font-size: 4vw;
+    }
+    .column1 {
+        float: left;
+        width: 100%;
+        padding: 3vw;
+    }
+    .column1 img {
+        width: 6vw;
+        padding-right: 5px;
+        display: inline;
+    }
+    .column2 {
+        float: left;
+        width: 100%;
+        padding: 3vw;
+    }
+    .column2 img {
+        width: 6vw;
+        padding-right: 5px;
+        display: inline;
+    }
+    .column3 {
+        float: left;
+        width: 100%;
+        padding: 3vw;
+        height: 100%;
+        padding-top: 85vw;
+        padding-bottom: 100px;
+    }
+    .column3 img {
+        width: 6vw;
+        padding-right: 5px;
+        display: inline;
+    }
+    .columnleyenda {
+        width: 100%;
+        height: 10%;
+        padding-left: 3vw;
+        display: none;
+    }
+    .column-100 {
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+    .border-column {
+        border: none;
+    }
+    .padding-top {
+        padding-top: 80vw;
+    }
+    .bravas img {
+        display: none;
+    }
+    .hamburguesa img {
+        display: none;
+    }
+    .frankfurt img {
+        display: none;
+    }
+    .bocata {
+        display: none;
+    }
+}
